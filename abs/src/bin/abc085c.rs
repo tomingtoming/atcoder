@@ -20,7 +20,7 @@ fn main() {
                 if y < sum3 {
                     continue;
                 }
-                if sum3 == y {
+                if ichiman + gosen + sen == n && sum3 == y {
                     println!("{} {} {}", ichiman, gosen, sen);
                     return;
                 }
