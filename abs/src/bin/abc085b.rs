@@ -1,3 +1,11 @@
+use proconio::input;
+
 fn main() {
-    todo!();
+    input! {
+        n: usize,
+        mut dn: [usize; n],
+    }
+    dn.sort();
+    dn.dedup();
+    println!("{}", dn.len());
 }
